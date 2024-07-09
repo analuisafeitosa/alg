@@ -12,5 +12,5 @@ visualize_graph(graph)
 
 # Calcular o melhor caminho usando Dijkstra ou Bellman-Ford
 start = 'A'  # Exemplo de ponto inicial
-distances = dijkstra(graph, start)  # ou bellman_ford(graph, start)
+distances = dijkstra(graph, start) 
 print(distances)
